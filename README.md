@@ -40,8 +40,8 @@ To get started, we are assuming you're working with vanilla `foundry` and not `f
 ## Quickstart
 
 ```bash
-git clone https://github.com/a1111198/Merkle-Airdrop
-cd Merkle-Airdrop
+git clone https://github.com/a1111198/Merkle-Airdrop-with-signature-verification
+cd Merkle-Airdrop-with-signature-verification
 make # or forge install && forge build if you don't have make
 ```
 
