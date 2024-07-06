@@ -16,7 +16,7 @@ contract ClaimAirDrop is Script {
         0xe5ebd1e1b5a5478a944ecab36a9a954ac3b6b8216875f6524caa7a1d87096576;
     bytes32[] PROOF = [PROOF1, PROOF2];
     bytes private signature =
-        hex"85e58e2d1dc3f7c36f3f360ac284d4219b9576dafd339f4e0f3bfdcaa7226bd93fe434de682e055b6d3c057055ba2f4bc5a2b48be472ab9bd1845b24dd6ce3841c";
+        hex"e0b0f33bdf59f2d4574be805cc42a5b245d6f6d47b607e4326e00b06514f231110fead107e464b3d0543f7de4e70f2597c15069744858ad1970c646b57ac5bbd1c";
 
     function run() external {
         address contractAddress = DevOpsTools.get_most_recent_deployment(
