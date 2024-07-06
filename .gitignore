@@ -9,6 +9,7 @@ out/
 
 # Docs
 docs/
+/zkout
 
 # Dotenv file
 .env
